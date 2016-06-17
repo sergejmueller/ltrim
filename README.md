@@ -37,31 +37,15 @@ Examples
 var ltrim = require('ltrim');
 
 
-/**
- * Strip whitespace from the beginning of a string
- */
+/* Strip whitespace from the beginning of a string */
+ltrim( '    Hello    ' ) + ' World' // →Hello     World
 
-ltrim( '    Hello    ' ) + ' World' // Hello     World
+/* Strip multiple special chars from the beginning of a string */
+ltrim( '... Hello World ...', ' .' ); // →Hello World ...
 
+/* Strip multiple chars from the beginning of a string */
+ltrim( 'Hello World', 'Hdle' ); // →o World
 
-/**
- * Strip multiple special chars from the beginning of a string
- * e.g. space & dot
- */
-
-ltrim( '... Hello World ...', ' .' ); // Hello World ...
-
-
-/**
- * Strip multiple chars from the beginning of a string
- */
-
-ltrim( 'Hello World', 'Hdle' ); // o World
-
-
-/**
- * Strip url protocol from the beginning of a string
- */
-
-ltrim( 'https://goo.gl/', '/:htps' ); // goo.gl/
+/* Strip url protocol from the beginning of a string */
+ltrim( 'https://goo.gl/', '/:htps' ); // →goo.gl/
 ```

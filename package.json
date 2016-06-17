@@ -1,6 +1,6 @@
 {
     "name": "ltrim",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Strip whitespace - or other characters - from the beginning of a string",
     "main": "index.js",
     "scripts": {
