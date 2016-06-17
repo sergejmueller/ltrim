@@ -24,7 +24,7 @@ Usage
 ltrim ( str [, chars ] )
 ```
 
-`str` → The input string..
+`str` → The input string<br>
 `chars` → Characters that you want to be stripped
 
 Without the second parameter, `ltrim` will strip whitespaces (spaces, tabs and new lines).
