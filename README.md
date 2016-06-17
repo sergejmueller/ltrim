@@ -41,7 +41,7 @@ var ltrim = require('ltrim');
  * Strip whitespace from the beginning of a string
  */
 
-ltrim( '     Hello     ' ) + ' World' // Hello      World
+ltrim( '    Hello    ' ) + ' World' // Hello     World
 
 
 /**

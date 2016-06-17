@@ -26,9 +26,9 @@ describe( 'Strip characters from the beginning of a string', function() {
     it( 'Strip whitespace', function() {
 
         expect(
-            ltrim( '     Hello World     ' )
+            ltrim( '    Hello World    ' )
         ).to.equal(
-            'Hello World     '
+            'Hello World    '
         );
 
     } );
