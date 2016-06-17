@@ -20,7 +20,18 @@ npm install ltrim
 Usage
 -----
 
-Without the second parameter, `ltrim()` will strip whitespaces (spaces, tabs and new lines).
+```javascript
+ltrim ( str [, chars ] )
+```
+
+`str` → The input string
+`chars` → Characters that you want to be stripped
+
+Without the second parameter, `ltrim` will strip whitespaces (spaces, tabs and new lines).
+
+
+Examples
+-----
 
 ```javascript
 var ltrim = require('ltrim');
