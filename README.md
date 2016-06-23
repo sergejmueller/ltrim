@@ -7,6 +7,7 @@ ltrim
 [![Dependency Status](https://david-dm.org/sergejmueller/ltrim.svg)](https://david-dm.org/sergejmueller/ltrim)
 [![Code Climate](https://codeclimate.com/github/sergejmueller/ltrim/badges/gpa.svg)](https://codeclimate.com/github/sergejmueller/ltrim)
 [![Build Status](https://travis-ci.org/sergejmueller/ltrim.svg?branch=master)](https://travis-ci.org/sergejmueller/ltrim)
+[![Known Vulnerabilities](https://snyk.io/test/github/sergejmueller/ltrim/badge.svg)](https://snyk.io/test/github/sergejmueller/ltrim)
 
 
 Install
