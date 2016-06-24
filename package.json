@@ -12,8 +12,11 @@
         "strip",
         "string"
     ],
-    "author": "Sergej Müller",
-    "homepage": "https://sergejmueller.github.io",
+    "author": {
+        "name": "Sergej Müller",
+        "url": "https://sergejmueller.github.io"
+    },
+    "homepage": "https://github.com/sergejmueller/ltrim",
     "repository": {
         "type": "git",
         "url": "https://github.com/sergejmueller/ltrim.git"
