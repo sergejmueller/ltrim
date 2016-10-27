@@ -1,31 +1,37 @@
 {
-    "name": "ltrim",
-    "version": "0.0.3",
-    "description": "Strip whitespace - or other characters - from the beginning of a string",
-    "main": "index.js",
-    "scripts": {
-        "test": "mocha"
-    },
-    "keywords": [
-        "trim",
-        "ltrim",
-        "strip",
-        "string"
-    ],
-    "author": {
-        "name": "Sergej Müller",
-        "url": "https://sergejmueller.github.io"
-    },
-    "homepage": "https://github.com/sergejmueller/ltrim",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/sergejmueller/ltrim.git"
-    },
-    "license": "MIT",
-    "devDependencies": {
-        "chai": "^3.5.0",
-        "mocha": "^3.1.2",
-        "array-range": "^1.0.1",
-        "shuffle-array": "^1.0.0"
-    }
+  "name": "ltrim",
+  "version": "0.16.1",
+  "description": "Strip whitespace - or other characters - from the beginning of a string",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "trim",
+    "ltrim",
+    "strip",
+    "string"
+  ],
+  "author": {
+    "name": "Sergej Müller",
+    "url": "https://sergejmueller.github.io"
+  },
+  "homepage": "https://github.com/sergejmueller/ltrim",
+  "repository": "sergejmueller/ltrim",
+  "license": "MIT",
+  "devDependencies": {
+    "array-range": "^1.0.1",
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1",
+    "eslint-plugin-node": "^2.1.3",
+    "mocha": "^3.1.2",
+    "shuffle-array": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
 }
