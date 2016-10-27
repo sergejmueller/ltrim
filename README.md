@@ -1,7 +1,7 @@
 ltrim
 ============
 
-`ltrim` [Node.js module](https://www.npmjs.com/package/ltrim) returns a string with whitespace (or other characters) stripped from the beginning of a string. Without dependencies and library bloat.
+`ltrim` Node.js module returns a string with whitespace (or other characters) stripped from the beginning of a string. Without dependencies and library bloat.
 
 
 [![Dependency Status](https://david-dm.org/sergejmueller/ltrim.svg)](https://david-dm.org/sergejmueller/ltrim)
@@ -13,8 +13,14 @@ ltrim
 Install
 -----
 
-```
+```bash
 npm install ltrim
+```
+
+*or*
+
+```bash
+yarn add ltrim
 ```
 
 
@@ -25,8 +31,10 @@ Usage
 ltrim ( str [, chars ] )
 ```
 
-`str` → The input string<br>
-`chars` → Characters that you want to be stripped
+Parameter | Description
+--- | ---
+`str` | The input string
+`chars` | Characters that you want to be stripped
 
 Without the second parameter, `ltrim` will strip whitespaces (spaces, tabs and new lines).
 
@@ -35,8 +43,7 @@ Examples
 -----
 
 ```javascript
-var ltrim = require('ltrim');
-
+var ltrim = require( 'ltrim' );
 
 /* Strip whitespace from the beginning of a string */
 ltrim( '    Hello    ' ) + ' World' // →Hello     World
