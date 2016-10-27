@@ -1,7 +1,7 @@
 "use strict";
 
 
-var ltrim = require('..');
+var ltrim = require( '..' );
 
 
 /**

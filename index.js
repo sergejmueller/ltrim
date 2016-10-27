@@ -29,7 +29,7 @@ module.exports = function ( str, chars ) {
 
     // Set vars
     var i = 0,
-        letters = str.split(''),
+        letters = str.split( '' ),
         count = letters.length;
 
     // Loop letters
