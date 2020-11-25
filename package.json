@@ -1,6 +1,6 @@
 {
   "name": "ltrim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Strip whitespace - or other characters - from the beginning of a string",
   "main": "index.js",
   "files": [
@@ -21,7 +21,7 @@
     "url": "https://sergejmueller.github.io"
   },
   "homepage": "https://github.com/sergejmueller/ltrim",
-  "repository": "sergejmueller/ltrim",
+  "repository": "git://github.com/sergejmueller/ltrim.git",
   "license": "MIT",
   "devDependencies": {
     "array-range": "^1.0.1",

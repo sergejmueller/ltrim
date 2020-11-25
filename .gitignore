@@ -1,4 +1,4 @@
 node_modules
 .npm
-logs
-*.log
+.idea
+.DS_Store
